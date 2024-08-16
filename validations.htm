@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>all validations</title>
+</head>
+<body>
+  <form action="login sucessful.html" method="post">
+    <input type="username" name="uname" id="uname" required placeholder="enter a username"
+    pattern="[a-zA-z\d]+@[a-z]"><br>
+   
+  </form>
+  <form action="login sucessful.html" method="post">
+    <input type="text" name="email" id="email" required placeholder="enter a mail address"
+    pattern="[a-zA-z\d]+@[a-z]+\.[a-z]{2,} "><br>
+   
+  </form>
+
+
+  <form action="login sucessful.html" method="post">
+    <input type="password" name="password" id="password" required placeholder="enter a password"
+    pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%]).{8,} "><br>
+    
+  </form>
+
+
+  
+  </form>
+  <form action="login sucessful.html" method="post">
+    <input type="text" name="number" id="number" required placeholder="enter a number"
+    pattern="[0-9]+//(?=.*[0-9]){12}// (?=.*[0-9]){31}"><br>
+ 
+  </form>
+  <input type="submit">
+</body>
+</html> 
